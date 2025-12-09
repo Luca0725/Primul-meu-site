@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first Web-Semantic</title>
+  <!--Css
+  <style>
+    h1{
+      background-color: red;
+      font-size: 3em;
+    }
+    p{
+      font-family: monoapace;
+      font-style: italic;
+    }
+  </style>
+  -->
+  <!--Legarea fisierului Css-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <figure>
+     <img src="img/pexels-sena-124841843-10240637.jpg" alt="Cana">
+    </figure>
+    <nav id="menu-principal">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#blog">Blog</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main id="continutul-principal">
+      <section id="hero">
+        <figure id="background-hero"></figure>
+        <img src="img/pexels-ioanamtc-14805823.jpg" alt="O cana caliente" width="200px">
+        <div id="text-hero">
+          <!--In line styles
+          <h1 style="background: red;font-size: 3em;">Stil in Linie</h1>-->
+          <h1>My first Website</h1>
+          <h2>Cani Germania</h2>
+         <p>Le am luat de la babe</p>
+        </div>
+      </section>
+       <!-- Sectiunea cu blog pt cani-->
+      <section id="Blog">
+        <article class="  ">
+          <h3>Primul</h3>
+        <figure class="img-post">
+          <img src="img/pexels-grizzlybear-404178.jpg" alt="A lu bunicu" width="90px">
+        </figure>
+        <div class="text-post">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quae voluptates vitae? Asperiores accusantium obcaecati culpa at aperiam harum officia similique laudantium architecto? Aspernatur et odio facere, accusamus sunt enim!
+          </p>
+        </div>
+       </article>
+       <article class="Blog-post">
+        <h3>Doi</h3>
+        <figure class="img-post">
+          <img src="img/pexels-lucamusella-17567462.jpg" alt="Casa lu mamaie" width="90px">
+        </figure>
+        <div class="text-post">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quae voluptates vitae? Asperiores accusantium obcaecati culpa at aperiam harum officia similique laudantium architecto? Aspernatur et odio facere, accusamus sunt enim!
+          </p>
+        </div>
+       </article>
+      </section>
+      <!--Date de Contact-->
+      <section id="Contact">
+        <h2>Contactare</h2>
+        <form action="cantact-form.js" method="post">
+          <label for="name">Nume:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Date electronice:</label>
+          <input type="email" id="email" name="email">
+          <button type="submit">Trimite</button>
+          <button type="reset">Date reimprospatate</button>
+        </form>
+      </section>
+  </main>
+  <footer>
+    <div id="social-media">
+      <h2>Retele sociale</h2>
+      <ul>
+        <li>
+          <a href="#">Github</a>
+        </li>
+        <li>
+          <a href="#">Instagram</a>
+        </li>
+        <li>
+          <a href="#">Facebook</a>
+        </li>
+        <li>
+          <a href="#">Tiktok</a>
+        </li>
+      </ul>
+    </div>
+    <div id="copy-right">
+      <p>Creatorul acestui document este Marele scriitor Lampa</p>
+      <figure>
+        <img src="img/pexels-sikes-photos-607210-3975266.jpg" alt="Bunicu la barbut" width="100px">
+      </figure>
+      <p>Licenta Creativa Comuna</p>
+    </div>
+  </footer>
+</body>
+</html> 

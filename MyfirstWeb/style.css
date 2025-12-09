@@ -1,0 +1,59 @@
+/*Comentarii in Css
+
+h1{
+  background-color: red;
+  font-size: 3em;
+}
+h1{
+  background-color: lightcoral;
+}
+*/
+/*Universal slector(se aplica stilurile la toate elementele)
+*{
+  background-color: salmon;
+}
+*/
+body{
+  background-color: grey;
+  color: bisque;
+  font-family: monspace;
+  border-radius: 10px;
+}
+h2{
+  background-color: bisque;
+  color: grey;
+  border-radius: 10px;
+}
+img{
+border-radius: 10px;
+}
+header{
+  width: 100%;
+}
+
+header figure{
+  width: 80px;
+  margin: 0 auto;
+}
+
+header figure img{
+  width: 100%;
+}
+
+header ul{
+  list-style: none;
+  text-align: center;
+}
+
+.Blog-post{
+  font-size: 20px;
+}
+#hero{
+  background-color: blanchedalmond;
+}
+#text-hero p:hover{
+  color: black;
+}
+#text-hero h1{
+  color: black;
+}
